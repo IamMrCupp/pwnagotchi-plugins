@@ -26,6 +26,5 @@ Enable the plugin by adding the following to your `config.toml`
 ```
 main.plugins.agev3.enabled = true
 main.plugins.agev3.age_x_coord = 0
-main.plugins.agev3.age_y_coord = 32
-
+main.plugins.agev3.age_y_coord = 80
 ```
