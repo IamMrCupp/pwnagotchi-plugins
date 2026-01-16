@@ -59,5 +59,5 @@ To use this module you will need to do the following:
 
 - Restart the pwnagotchi app
     ``` bash
-    sudo pwnkill
+    pwnkill
     ```
