@@ -12,8 +12,7 @@ If you have enjoyed using these plugins, please help me stay caffeinated by dona
 #### Repo Layout:
 <pre>
 .
-├── plugins
-│   └── agev3.py
+├── agev3.py
 └── README.md
 </pre>
 
