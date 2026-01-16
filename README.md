@@ -41,9 +41,15 @@ You have two options for installing and using the plugins:
 ---
 
 ## agev3.py plugin
-This is the age plugin that I am using at the moment due to the lack of calculated Age being displayed while using the jayofelony image.
 
-To use this module you will need to do the following:
+![screenshot](docs/images/agev3.png)
+
+This is the age plugin that I am using at the moment due to the lack of calculated Age being displayed while using the jayofelony image. The above image shows the Age feature surrounded by the red squiggly rectangle.
+
+### Overview 
+The plugin determines the Age of the pwnagotchi by crawling over the filesystem and stating a few files. It uses the information harvested off the file creation date and writes out a json blob to be used as the device Birth Date.
+
+### Use
 - install & enabled plugin
     ```
     sudo pwnagotchi plugins install agev3
