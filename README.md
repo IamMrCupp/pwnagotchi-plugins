@@ -44,21 +44,6 @@ You have two options for installing and using the plugins:
 This is the age plugin that I am using at the moment due to the lack of calculated Age being displayed while using the jayofelony image.
 
 To use this module you will need to do the following:
-
-- add the repo to the plugin list in `config.toml`
-    ```
-    main.custom_plugin_repos = [
-      "https://github.com/jayofelony/pwnagotchi-torch-plugins/archive/master.zip",
-      "https://github.com/Sniffleupagus/pwnagotchi_plugins/archive/master.zip",
-      "https://github.com/NeonLightning/pwny/archive/master.zip",
-      "https://github.com/marbasec/UPSLite_Plugin_1_3/archive/master.zip",
-      "https://github.com/wpa-2/Pwnagotchi-Plugins/archive/master.zip",
-      "https://github.com/Teraskull/pwnagotchi-community-plugins/archive/master.zip",
-      "https://github.com/hannadiamond/pwnagotchi-plugins/archive/master.zip",
-      "https://github.com/IamMrCupp/pwnagotchi-plugins/archive/master.zip"
-    ]
-    ```
-
 - install & enabled plugin
     ```
     sudo pwnagotchi plugins install agev3
