@@ -3,10 +3,10 @@ import json
 import logging
 from datetime import datetime
 
-import pwnagotchi.plugins as plugins
-import pwnagotchi.ui.fonts as fonts
-from pwnagotchi.ui.components import LabeledValue
-from pwnagotchi.ui.view import BLACK
+import pwnagotchi.plugins as plugins    
+import pwnagotchi.ui.fonts as fonts    
+from pwnagotchi.ui.components import LabeledValue  
+from pwnagotchi.ui.view import BLACK    
 
 AGE_DATA_FILE = '/root/.pwnagotchi-age-data'
 

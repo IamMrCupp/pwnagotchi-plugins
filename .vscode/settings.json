@@ -1,0 +1,14 @@
+{
+    "cSpell.words": [
+        "agev",
+        "evilsocket",
+        "jayofelony",
+        "pwnagotchi",
+        "pwnlog",
+        "pwnkill"
+    ],
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/stubs"
+    ],
+    "python.analysis.stubPath": "${workspaceFolder}/stubs"
+}
