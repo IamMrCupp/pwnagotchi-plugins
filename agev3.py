@@ -12,7 +12,7 @@ AGE_DATA_FILE = '/root/.pwnagotchi-age-data'
 
 class Age(plugins.Plugin):
     __author__ = 'IamMrCupp'
-    __version__ = '2.0.0'
+    __version__ = '1.1.0'
     __license__ = 'MIT'
     __description__ = 'A simple plugin that displays the age of your pwnagotchi device on the UI.\n We display nothing more than the Age. Other plugins can be used for Str/Int/Exp/etc.'
 
