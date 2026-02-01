@@ -83,3 +83,41 @@ The plugin determines the Age of the pwnagotchi by crawling over the filesystem 
     ``` bash
     pwnkill
     ```
+
+---
+
+## hashieclean.py plugin
+
+This is a refactored version of the hashieclean plugin to be 100% python 3.11 compatible along with some improvements to error handling/logging and added some validation for required system level tools.
+
+
+#### Required Install: 
+Install `hcxpcapngtool` using following commands:
+```
+git clone https://github.com/ZerBea/hcxtools.git
+cd hcxtools
+apt-get install libcurl4-openssl-dev libssl-dev zlib1g-dev
+make
+sudo make install
+```
+
+### Overview 
+This plugin cleans/removed lonely PCAP files; ie. ones that could not be converted to either .22000 (EAPOL) or .16800 (PMKID) formats.
+
+### Use
+- install & enabled plugin
+    ```
+    sudo pwnagotchi plugins install hashieclean
+    sudo pwnagotchi plugins enable hashieclean
+    ``` 
+
+- Enable the plugin by adding the following to your `config.toml`
+    ```
+    main.plugins.hashieclean.enabled = true    # true/false
+    main.plugins.hashieclean.interval = 12     # in hours
+    ```
+
+- Restart the pwnagotchi app
+    ``` bash
+    pwnkill
+    ```
