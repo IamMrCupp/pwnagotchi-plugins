@@ -12,15 +12,13 @@ If you have enjoyed using these plugins, please help me stay caffeinated by dona
 #### Repo Layout:
 <pre>
 .
-├── .gitignore
-├── .vscode                     
-│   └── settings.json           # vscode setting files
-├── agev3.py                    # Agev3 plugin
-├── docs                        
-│   └── images                  
-│       └── agev3.png           # Agev3 Screenshot
-├── README.md                   
-└── stubs                       # These are "stubs" for local python development
+├── agev3.py
+├── docs
+│   └── images
+│       └── agev3.png
+├── hashieclean.py
+├── README.md
+└── stubs
     └── pwnagotchi
         ├── __init__.py
         ├── plugins
